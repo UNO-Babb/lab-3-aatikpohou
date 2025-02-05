@@ -12,8 +12,9 @@ def main():
 
   tempC =  int(tempF) - 32 
   tempC1 = (tempC) * 5/9 
-  tempC = int(tempC1)
+  tempC = (tempC1)
+  tempC_Round = round(tempC, 1)
 
-  print(tempF, "is ", tempC, "degrees celsius.")
+  print(tempF, "is ", tempC_Round, "degrees celsius.")
 if __name__ == '__main__':
   main()
